@@ -1,0 +1,19 @@
+# Large raw / cleaned data — excluded from version control (local analysis only)
+01_原始数据/
+02_解压数据/
+03_清洗数据/
+00_外部库/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Temporary / intermediate artefacts
+*.zip
+*.parquet
+*.bundle
+.DS_Store
+Thumbs.db
+
+# Paper figures (PNG + SVG) ARE committed — shared SVGs are needed for Inkscape tweaks
+# 05_结果/图/
